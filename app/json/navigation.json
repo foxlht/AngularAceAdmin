@@ -1,0 +1,420 @@
+[
+  {
+    "title": "权限管理",
+    "icon": "fa-universal-access",
+    "children": [
+      {
+        "title": "菜单管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "角色管理",
+        "link": "#/main/AccessControl/RoleManagement",
+        "activeStatus": false
+      },
+      {
+        "title": "角色与菜单管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "操作员管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      }
+    ]
+  },
+  {
+    "title": "中心管理",
+    "icon": "fa-tasks",
+    "children": [
+      {
+        "title": "员工管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "部门管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "路队管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "线路管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "车辆管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "车载机管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "充值点管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "充值终端管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "系统日志查询",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "数据备份",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      }
+    ]
+  },
+  {
+    "title": "卡管理",
+    "icon": "fa-credit-card",
+    "children": [
+      {
+        "title": "卡操作",
+        "children": [
+          {
+            "title": "订单管理",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "制领导卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "制卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "制作母卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "制ISAM卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "制密钥卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "卡片还原",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "卡置白",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "发员工卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "发运餐卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "发管理卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          }
+        ]
+      },
+      {
+        "title": "卡片信息管理",
+        "children": [
+          {
+            "title": "消费卡类型",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "管理卡类型",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "消费卡信息设置",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "运参卡信息设置",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "售卡充值管理",
+    "icon": "fa-credit-card-alt",
+    "children": [
+      {
+        "title": "售卡充值",
+        "children": [
+          {
+            "title": "售卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "充值",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "冲正",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "挂失登记",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "转卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "转卡类型",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "退卡登记",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "退卡",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "年检",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "解禁",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "补打小票",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          }
+        ]
+      },
+      {
+        "title": "信息查询",
+        "children": [
+          {
+            "title": "当日售卡明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "当日钱包充值明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "历史售卡明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "历史钱包充值明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "转卡明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "退卡明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "登记解禁明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "历史消费明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "卡内消费明细",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          },
+          {
+            "title": "客户信息修正",
+            "link": "javascript:void(0)",
+            "activeStatus": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "清算管理",
+    "icon": "fa-usd",
+    "children": [
+      {
+        "title": "卡片账目清算",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "卡片不平衡记录",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "清算结果查询",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "黑名单管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "黑名单下载管理",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "下达补采集任务",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "错误消费记录",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      }
+    ]
+  },
+  {
+    "title": "报表管理",
+    "icon": "fa-pie-chart",
+    "children": [
+      {
+        "title": "售卡充值汇总报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "售卡明细报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "充值明细报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "运营收入报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "专线客服运营收入报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "互通统计报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "互通提交历史报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "互通未确认报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "退卡明细报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "转卡明细报表",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      }
+    ]
+  },
+  {
+    "title": "编码管理",
+    "icon": "fa-code",
+    "children": [
+      {
+        "title": "编码定义",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      },
+      {
+        "title": "编码内容",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      }
+    ]
+  },
+  {
+    "title": "系统管理",
+    "icon": "fa-cogs",
+    "children": [
+      {
+        "title": "卡操作控件下载",
+        "link": "javascript:void(0)",
+        "activeStatus": false
+      }
+    ]
+  }
+]

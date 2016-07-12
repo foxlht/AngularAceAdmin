@@ -33,6 +33,24 @@ angular
           url: '/login',
           templateUrl: 'views/frame/login.html',
           controller: 'LoginCtrl'
+        })
+        .state('main', {
+          url: '/main',
+          templateUrl: 'views/frame/main.html',
+          controller: 'MainCtrl',
+          resolve: {
+            navDataList: [
+              'NavigationServices',
+              '$q',
+              function (NavigationServices, $q) {
+                var defer = $q.defer();
+                NavigationServices.getNavigationData().then(function (data) {
+                  defer.resolve(data);
+                });
+                return defer.promise;
+              }
+            ]
+          }
         });
     }
   ]);

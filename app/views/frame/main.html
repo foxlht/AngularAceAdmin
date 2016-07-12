@@ -1,23 +1,39 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<div class="navbar navbar-default navbar-collapse" id="navbar">
+  <!--<div manster-ace-navbar></div>-->
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<div class="main-container" id="main-container">
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+  <div class="sidebar responsive menu-min sidebar-fixed sidebar-scroll" id="sidebar">
+    <!-- 侧边栏快捷按钮 -->
+    <!--<div manster-ace-sidebar-shortcuts></div>-->
+    <!-- 树形菜单 -->
+    <!--<div manster-ace-tree-view tree-view-list="treeViewList"></div>-->
+    <!-- 切换按钮 -->
+    <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+      <i class="ace-icon fa fa-angle-double-right" data-icon1="ace-icon fa fa-angle-double-left"
+         data-icon2="ace-icon fa fa-angle-double-right"></i>
+    </div> <!-- / .sidebar-collapse -->
+  </div> <!-- .sidebar-->
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+  <div class="main-content">
+    <!-- 面包屑导航 -->
+    <div class="breadcrumbs">
+      <!--<div manster-ace-breadcrumbs></div>-->
+    </div> <!-- .breadcrumbs-->
+    <!-- 页面内容 -->
+    <div class="page-content">
+      <div class="page-header">
+        <h1>{{pageHeader.title}}</h1>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div ui-view="content"></div>
+        </div>
+      </div>
+    </div> <!-- /.page-content -->
+
+  </div> <!-- /.main-content -->
+
+
 </div>
