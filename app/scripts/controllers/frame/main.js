@@ -8,10 +8,9 @@
  * Controller of the angularAceAdminApp
  */
 angular.module('angularAceAdminApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('MainCtrl', [
+    '$scope',
+    'navDataList',
+    function ($scope, navDataList) {
+      $scope.treeViewList = navDataList;
+    }]);
