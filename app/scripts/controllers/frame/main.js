@@ -15,7 +15,7 @@ angular.module('angularAceAdminApp')
       $scope.treeViewList = navDataList;
 
 
-      // 导航栏 Title & 图标 (Font Awesome)
+      // 导航栏 Title & Icon (Font Awesome)
       $scope.navbarInfo = {
         title: 'Angular Ace Admin',
         icon: 'fa-google'
