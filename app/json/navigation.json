@@ -10,7 +10,7 @@
       },
       {
         "title": "角色管理",
-        "link": "#/main/AccessControl/RoleManagement",
+        "link": "javascript:void(0)",
         "activeStatus": false
       },
       {
@@ -39,36 +39,7 @@
         "link": "javascript:void(0)",
         "activeStatus": false
       },
-      {
-        "title": "路队管理",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "线路管理",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "车辆管理",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "车载机管理",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "充值点管理",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "充值终端管理",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
+
       {
         "title": "系统日志查询",
         "link": "javascript:void(0)",
@@ -94,11 +65,6 @@
             "activeStatus": false
           },
           {
-            "title": "制领导卡",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
             "title": "制卡",
             "link": "javascript:void(0)",
             "activeStatus": false
@@ -109,32 +75,12 @@
             "activeStatus": false
           },
           {
-            "title": "制ISAM卡",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
             "title": "制密钥卡",
             "link": "javascript:void(0)",
             "activeStatus": false
           },
           {
             "title": "卡片还原",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
-            "title": "卡置白",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
-            "title": "发员工卡",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
-            "title": "发运餐卡",
             "link": "javascript:void(0)",
             "activeStatus": false
           },
@@ -162,11 +108,6 @@
             "title": "消费卡信息设置",
             "link": "javascript:void(0)",
             "activeStatus": false
-          },
-          {
-            "title": "运参卡信息设置",
-            "link": "javascript:void(0)",
-            "activeStatus": false
           }
         ]
       }
@@ -186,11 +127,6 @@
           },
           {
             "title": "充值",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
-            "title": "冲正",
             "link": "javascript:void(0)",
             "activeStatus": false
           },
@@ -216,16 +152,6 @@
           },
           {
             "title": "退卡",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
-            "title": "年检",
-            "link": "javascript:void(0)",
-            "activeStatus": false
-          },
-          {
-            "title": "解禁",
             "link": "javascript:void(0)",
             "activeStatus": false
           },
@@ -359,26 +285,6 @@
         "activeStatus": false
       },
       {
-        "title": "专线客服运营收入报表",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "互通统计报表",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "互通提交历史报表",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
-        "title": "互通未确认报表",
-        "link": "javascript:void(0)",
-        "activeStatus": false
-      },
-      {
         "title": "退卡明细报表",
         "link": "javascript:void(0)",
         "activeStatus": false
@@ -411,7 +317,7 @@
     "icon": "fa-cogs",
     "children": [
       {
-        "title": "卡操作控件下载",
+        "title": "系统设置",
         "link": "javascript:void(0)",
         "activeStatus": false
       }

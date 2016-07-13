@@ -12,8 +12,13 @@ angular.module('angularAceAdminApp')
     '$scope',
     'navDataList',
     function ($scope, navDataList) {
+      // 树形菜单列表
       $scope.treeViewList = navDataList;
 
+      // 更新页面标题的监听
+      $scope.$on('updatePageHeaderTitle', function (event, pageHeaderInfo) {
+        $scope.pageHeader = pageHeaderInfo;
+      });
 
       // 导航栏 Title & Icon (Font Awesome)
       $scope.navbarInfo = {
