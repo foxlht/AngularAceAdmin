@@ -13,4 +13,9 @@ angular.module('angularAceAdminApp')
     'navDataList',
     function ($scope, navDataList) {
       $scope.treeViewList = navDataList;
+
+      $scope.navbarInfo = {
+        title: 'Angular Ace Admin',
+        icon: 'fa-google'
+      }
     }]);
