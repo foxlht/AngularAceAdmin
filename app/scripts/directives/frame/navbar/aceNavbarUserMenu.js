@@ -12,23 +12,15 @@ angular.module('angularAceAdminApp')
       templateUrl: 'template/frame/navbar/aceNavbarUserMenu.html',
       restrict: 'EA',
       replace: true,
+      scope: {
+        userInfo: '=',
+        changePassword: '&',
+        signOut: '&'
+      },
       controller: [
         '$scope',
         function ($scope) {
-          // 用户基本信息
-          $scope.userInfo = {
-            username: 'Manster'
-          };
-
-          // 修改密码
-          $scope.changePassword = function () {
-
-          };
-
-          // 退出登录
-          $scope.signOut = function () {
-
-          };
+          
         }
       ]
     };

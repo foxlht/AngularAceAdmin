@@ -12,14 +12,17 @@ angular.module('angularAceAdminApp')
       templateUrl: 'template/frame/navbar/aceNavbar.html',
       restrict: 'EA',
       scope: {
-        'navbarInfo': '='
+        navbarInfo: '=',
+        userInfo: '=',
+        changePassword: '&',
+        signOut: '&'
       },
       controller: [
         '$scope',
         function ($scope) {
           $scope.isShowIcon = function () {
             return $scope.navbarInfo.icon ? true : false;
-          }
+          };
         }
       ]
     };
