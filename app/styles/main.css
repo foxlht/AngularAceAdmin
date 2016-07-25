@@ -4,3 +4,16 @@
   height: 100%;
   padding-top: 20%;
 }
+
+tr.select > th, tr.select > td {
+  background-color: cyan;
+}
+
+.ace-pagination .current-page {
+  padding-left: 10px;
+}
+
+.ace-pagination .current-page input {
+  width: 40px;
+  text-align: center;
+}
