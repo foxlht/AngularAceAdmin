@@ -150,3 +150,31 @@
 		}
 
 		<div ace-modal-view modal-view-close="onModalClose()"></div>
+
+### ace-pagination
+
+1. `pagination-conf` 分页的配置对象， 包含三个属性：`currentPage` 当前的页码, 默认为1; `itemsPerPage` 每页显示的条目, 默认为10; `totalItems` 总条目数 (必选)
+
+		var paginationConf = {
+			currentPage: 1,
+			itemsPerPage: 10,
+			totalItems: 287
+		};
+
+		<div ace-pagination pagination-conf="paginationConf"></div>
+
+2. `pagination-click` 点击页码时执行的函数, 可在此函数中执行请求数据等操作。
+
+		var paginationConf = {
+			currentPage: 1,
+			itemsPerPage: 10,
+			totalItems: 287
+		};
+
+		$scope.getData = function () {
+			dataService.getData().then(function (data) {
+				do something...
+			});
+		};
+
+		<div ace-pagination pagination-conf="paginationConf" pagination-click="getData()"></div>
