@@ -17,3 +17,7 @@ tr.select > th, tr.select > td {
   width: 40px;
   text-align: center;
 }
+
+.modal-body {
+  max-height: 600px;
+}

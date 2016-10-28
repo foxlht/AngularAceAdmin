@@ -11,22 +11,13 @@ angular.module('angularAceAdminApp')
   .factory('NavigationServices', [
     '$http',
     '$q',
-    function ($http, $q) {
-      var defer = $q.defer();
+    'CommonService',
+    function ($http, $q, CommonService) {
 
       // 获得导航数据
       var getNavigationData = function () {
-        $http({
-          method: 'GET',
-          url: 'json/navigation.json'
-        })
-          .success(function (data, status, headers, config) {
-            defer.resolve(data);
-          })
-          .error(function (data, status, headers, config) {
-            defer.reject(data);
-          });
-        return defer.promise;
+        var defer = $q.defer();
+        return CommonService.requestDataFromServerWithLoading(defer, null, 'json/navigation.json');
       };
 
 

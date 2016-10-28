@@ -10,8 +10,9 @@
 angular.module('angularAceAdminApp')
   .controller('MainCtrl', [
     '$scope',
+    '$rootScope',
     'navDataList',
-    function ($scope, navDataList) {
+    function ($scope, $rootScope, navDataList) {
       // 树形菜单列表
       $scope.treeViewList = navDataList;
 
@@ -40,4 +41,38 @@ angular.module('angularAceAdminApp')
       $scope.signOut = function () {
         console.log('sign out');
       };
+
+
+      /** * * * * * * * * * * * * * * * * * * * *
+       *                模态框
+       ** * * * * * * * * * * * * * * * * * * * *
+       */
+      $scope.modalViewConfig = {
+        title: '提示',
+        show: false,
+        modalFooterBlock: true,
+        message: ''
+      };
+
+      /**
+       * 显示模态框
+       * @param message 模态框所要显示的信息
+       * @param callback 显示模态框的同时所需要执行的回调函数
+         */
+      $rootScope.showMessageModal = function (message, callback) {
+        if (callback) {
+          callback();
+        }
+        $scope.modalViewConfig.message = message;
+        $scope.modalViewConfig.show = true;
+      };
+
+      /**
+       * 隐藏模态框
+       */
+      $rootScope.hideMessageModal = function () {
+        $scope.modalViewConfig.show = false;
+      }
+
+
     }]);

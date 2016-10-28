@@ -13,7 +13,8 @@ angular
     'ngAnimate',
     'ngCookies',
     'ngResource',
-    'ui.router'
+    'ui.router',
+    'ngFileUpload'
   ])
   .config([
     '$stateProvider',
@@ -50,6 +51,15 @@ angular
                 return defer.promise;
               }
             ]
+          }
+        })
+        .state('main.test', {
+          url: '/test', 
+          views: {
+            'content': {
+              templateUrl: 'views/testView.html',
+              controller: 'TestViewCtrl'
+            }
           }
         });
     }
