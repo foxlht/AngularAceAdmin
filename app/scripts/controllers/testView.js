@@ -10,8 +10,9 @@
 angular.module('angularAceAdminApp')
   .controller('TestViewCtrl', [
     '$scope',
+    '$q',
     'CommonService',
-    function ($scope, CommonService) {
+    function ($scope, $q, CommonService) {
 
       $scope.modalViewConfig = {
         title: '模态框测试',
@@ -23,6 +24,18 @@ angular.module('angularAceAdminApp')
           console.log('测试消息模态框')
         });
       };
+
+      $scope.treeList = [];
+      $scope.formObject = {};
+
+      function getTreeList() {
+        var defer = $q.defer();
+        CommonService.requestDataFromServerWithLoading(defer, null, 'json/SelectTreeJson.json').then(function (data) {
+          $scope.treeList = data.obj;
+        });
+      }
+
+      getTreeList();
 
     }
   ]);

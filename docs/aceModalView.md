@@ -1,4 +1,4 @@
-# AceModalView
+# ace-modal-view
 
 ---
 
@@ -68,6 +68,7 @@ Html:
       console.log(res.status ? '删除成功' : '删除失败');
   });
   ```
+
 1. `modal-size`
   `modal-size`用来控制模态框的大小，是一个可选项，有两个选项供以选择`large`和`small`，若不进行配置，则以默认的宽度显示。
 
@@ -105,4 +106,4 @@ Html:
 
 1. `modal-view-close`
 
-  `modal-view-close`用于设置当模态框关闭时所执行的方法，可以在此方法中执行一些清空和回复初始状态的操作。
+  `modal-view-close`用于设置当模态框关闭时所执行的方法，可以在此方法中执行一些清空和恢复初始状态的操作。
