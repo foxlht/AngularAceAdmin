@@ -26,16 +26,18 @@ angular.module('angularAceAdminApp')
       };
 
       $scope.treeList = [];
-      $scope.formObject = {};
+      $scope.idArray = [];
 
       function getTreeList() {
         var defer = $q.defer();
-        CommonService.requestDataFromServerWithLoading(defer, null, 'json/SelectTreeJson.json').then(function (data) {
-          $scope.treeList = data.obj;
+        CommonService.requestDataFromServerWithLoading(defer, null, 'json/permissionTree.json').then(function (data) {
+          $scope.treeList = data;
         });
       }
 
       getTreeList();
+
+
 
     }
   ]);

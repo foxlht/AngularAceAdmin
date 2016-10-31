@@ -3,5 +3,5 @@
 <div ace-modal-view modal-title="modalViewConfig.title" modal-show="modalViewConfig.show" modal-footer-block="modalViewConfig.modalFooterBlock">
   {{modalViewConfig.message}}
 </div>
-<div ace-select-tree bind-array="treeList" bind-object="formObject" key-title="title" key-id="id" key-children="children"></div>
-{{formObject}}
+<div ace-select-tree-check bind-array="treeList" checked-array="idArray" key-title="title" key-id="id" key-children="children" key-check="checked"></div>
+{{idArray}}
