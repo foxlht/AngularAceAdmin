@@ -18,12 +18,12 @@
             </li>
             <li class="current-page">
                 第
-                <input type="text" class="input-sm" ng-model="paginationConf.currentPage">
+                <input type="number" class="input-sm" ng-model="paginationConf.currentPage" ng-change="onCurrentPageChange()">
                 页 / 共 {{totalPage}} 页
             </li>
             <li class="current-page">
                 每页显示
-                <select class="input-sm" ng-model="paginationConf.itemsPerPage"
+                <select class="input-sm" ng-model="paginationConf.itemsPerPage" ng-change="onItemsPerPageChange()"
                         ng-options="item for item in itemsPerPageOption"></select>
                 条
             </li>
