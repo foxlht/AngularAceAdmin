@@ -52,15 +52,6 @@ angular
               }
             ]
           }
-        })
-        .state('main.test', {
-          url: '/test', 
-          views: {
-            'content': {
-              templateUrl: 'views/testView.html',
-              controller: 'TestViewCtrl'
-            }
-          }
         });
     }
   ]);
