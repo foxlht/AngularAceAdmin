@@ -64,6 +64,11 @@ angular.module('angularAceAdminApp')
         $scope.$broadcast('GO_INDEX_PAGE', 1);
       };
 
+      $scope.btnInfo = {
+        title: '开关',
+        status: true
+      }
+
 
 
     }
